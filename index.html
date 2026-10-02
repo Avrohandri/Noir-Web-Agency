@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noir Web Agency — Jasa Pembuatan Website Profesional & Modern</title>
+  <meta name="description" content="Noir Web Agency melayani jasa pembuatan website profesional, landing page, toko online, dan web app dengan desain elegan, cepat, dan berkinerja tinggi.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Glow & Grid Effect -->
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- Header / Navigation -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">NOIR</span> AGENCY
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Layanan</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#pricing">Paket Harga</a>
+        <a href="#why-us">Keunggulan</a>
+        <a href="#contact" class="btn-primary-nav">Hubungi Kami</a>
+      </nav>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Buka Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="badge">
+        <span class="badge-dot"></span> Studio Pembuatan Website Kelas Dunia
+      </div>
+      <h1 class="hero-title">
+        Wujudkan Website Impian dengan Desain <span class="gradient-text">Elegan & Berkinerja Tinggi</span>
+      </h1>
+      <p class="hero-subtitle">
+        Kami merancang website profesional, responsif, dan siap melipatgandakan konversi bisnis Anda. Dari landing page kilat hingga web app kustom.
+      </p>
+
+      <div class="hero-cta-group">
+        <a href="#pricing" class="btn btn-primary" id="btnExplorePricing">
+          Lihat Pilihan Paket
+          <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </a>
+        <a href="https://wa.me/?text=Halo%20Noir%20Web%20Agency,%20saya%20tertarik%20untuk%20konsultasi%20pembuatan%20website" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="btnWhatsappConsult">
+          Konsultasi Gratis (WhatsApp)
+        </a>
+      </div>
+
+      <!-- Quick Metrics -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span class="metric-number" data-target="50">50+</span>
+          <span class="metric-label">Proyek Selesai</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-number">99.9%</span>
+          <span class="metric-label">Uptime & Kecepatan</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-number" data-target="100">100%</span>
+          <span class="metric-label">Kepuasan Klien</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-number">7-14</span>
+          <span class="metric-label">Hari Rata-rata Pengerjaan</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Layanan Kami</span>
+        <h2 class="section-title">Solusi Digital Sesuai Kebutuhan Bisnis Anda</h2>
+        <p class="section-subtitle">Setiap website dibangun dengan standar modern, SEO-friendly, dan dioptimasi penuh untuk perangkat mobile.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">🌐</div>
+          <h3 class="service-title">Company Profile</h3>
+          <p class="service-desc">
+            Tingkatkan kredibilitas bisnis Anda dengan website profil perusahaan yang mewah, informatif, dan meyakinkan calon klien.
+          </p>
+          <ul class="service-features">
+            <li>Desain custom eksklusif</li>
+            <li>Halaman profil, tim, & katalog</li>
+            <li>Optimasi SEO on-page</li>
+          </ul>
+        </div>
+
+        <div class="service-card featured">
+          <div class="featured-tag">Paling Diminati</div>
+          <div class="service-icon">🚀</div>
+          <h3 class="service-title">High-Converting Landing Page</h3>
+          <p class="service-desc">
+            Dirancang khusus untuk kampanye iklan Google & Meta Ads dengan copywriting persuasif dan kecepatan muat ultra cepat.
+          </p>
+          <ul class="service-features">
+            <li>Loading speed < 1.5 detik</li>
+            <li>Integrasi WhatsApp & form leads</li>
+            <li>Tracking Facebook Pixel & GA4</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">🛍️</div>
+          <h3 class="service-title">Toko Online (E-Commerce)</h3>
+          <p class="service-desc">
+            Platform jualan otomatis dengan manajemen produk, payment gateway instan (QRIS/VA), dan kalkulator ongkos kirim otomatis.
+          </p>
+          <ul class="service-features">
+            <li>Integrasi Midtrans / Xendit / Tripay</li>
+            <li>Otomatisasi ongkir ekspedisi</li>
+            <li>Dashboard admin mudah dikelola</li>
+          </ul>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">⚡</div>
+          <h3 class="service-title">Custom Web Application</h3>
+          <p class="service-desc">
+            Sistem informasi, dashboard internal, sistem reservasi, atau aplikasi web berbasis kebutuhan operasional spesifik.
+          </p>
+          <ul class="service-features">
+            <li>Teknologi modern (React / Node / API)</li>
+            <li>Database terstruktur & aman</li>
+            <li>Role & hak akses bertingkat</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Showcase Section -->
+  <section class="section section-dark" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Portofolio Pilihan</span>
+        <h2 class="section-title">Karya & Eksplorasi Desain Kami</h2>
+        <p class="section-subtitle">Beberapa konsep dan hasil pengerjaan website modern dengan estetika premium.</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <div class="portfolio-card">
+          <div class="portfolio-preview p-bg-1">
+            <span class="preview-badge">Corporate</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">Apex Global Logistics</h4>
+            <p class="portfolio-type">Company Profile & Tracking Interface</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-preview p-bg-2">
+            <span class="preview-badge">E-Commerce</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">Velvet & Oak Apparel</h4>
+            <p class="portfolio-type">Minimalist Fashion Online Store</p>
+          </div>
+        </div>
+
+        <div class="portfolio-card">
+          <div class="portfolio-preview p-bg-3">
+            <span class="preview-badge">SaaS / App</span>
+          </div>
+          <div class="portfolio-info">
+            <h4 class="portfolio-name">CloudFlow CRM</h4>
+            <p class="portfolio-type">High Conversion Product Landing Page</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Paket Harga Transparan</span>
+        <h2 class="section-title">Pilih Paket Sesuai Skala Bisnis Anda</h2>
+        <p class="section-subtitle">Semua paket sudah termasuk gratis domain, hosting premium tahun pertama, dan garansi maintenance.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Starter Plan -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3 class="plan-name">Starter Landing Page</h3>
+            <p class="plan-desc">Cocok untuk UMKM, promosi produk tunggal, atau kampanye promosi.</p>
+            <div class="plan-price">
+              <span class="currency">Rp</span>
+              <span class="amount">1.499.000</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ 1 Halaman Responsif (Landing Page)</li>
+            <li>✓ Gratis Domain .com & Hosting 1 Th</li>
+            <li>✓ Tombol Direct Call / WhatsApp</li>
+            <li>✓ Optimasi SEO Dasar</li>
+            <li>✓ Pengerjaan 3 - 5 Hari Kerja</li>
+            <li>✓ Garansi Maintenance 1 Bulan</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" onclick="selectPlan('Starter Landing Page')">Pilih Paket Ini</a>
+        </div>
+
+        <!-- Professional Plan (Featured) -->
+        <div class="pricing-card featured">
+          <div class="featured-ribbon">Rekomendasi</div>
+          <div class="pricing-header">
+            <h3 class="plan-name">Business Profile</h3>
+            <p class="plan-desc">Solusi ideal untuk kredibilitas institusi, korporat, atau agensi profesional.</p>
+            <div class="plan-price">
+              <span class="currency">Rp</span>
+              <span class="amount">3.499.000</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Hingga 5-7 Halaman Menu</li>
+            <li>✓ Gratis Domain .com & Cloud Hosting 1 Th</li>
+            <li>✓ Desain UI/UX Eksklusif & Modern</li>
+            <li>✓ Email Bisnis (nama@domainanda.com)</li>
+            <li>✓ Integrasi Google Analytics & Meta Pixel</li>
+            <li>✓ Form Kontak & Notifikasi WhatsApp</li>
+            <li>✓ Pengerjaan 7 - 10 Hari Kerja</li>
+            <li>✓ Garansi Maintenance 3 Bulan</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary" onclick="selectPlan('Business Profile')">Pilih Paket Ini</a>
+        </div>
+
+        <!-- Custom / Ecommerce Plan -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3 class="plan-name">E-Commerce / Custom</h3>
+            <p class="plan-desc">Untuk toko online lengkap dengan sistem payment gateway otomatis.</p>
+            <div class="plan-price">
+              <span class="currency">Rp</span>
+              <span class="amount">6.999.000</span>
+              <span class="period">mulai dari</span>
+            </div>
+          </div>
+          <ul class="pricing-features">
+            <li>✓ Katalog Produk Tanpa Batas</li>
+            <li>✓ Payment Gateway (QRIS, VA, CC)</li>
+            <li>✓ Integrasi Otomatis Ongkir JNE/SiCepat/dll</li>
+            <li>✓ Dashboard Manajemen Order & Stok</li>
+            <li>✓ Keamanan SSL & Proteksi DDOS</li>
+            <li>✓ Training Penggunaan Website</li>
+            <li>✓ Garansi Maintenance 6 Bulan</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline" onclick="selectPlan('E-Commerce / Custom')">Pilih Paket Ini</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section section-dark" id="why-us">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Nilai Tambah</span>
+        <h2 class="section-title">Mengapa Memilih Noir Web Agency?</h2>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon">✨</div>
+          <h4>Desain Estetis & Elegan</h4>
+          <p>Kami tidak menggunakan template murahan yang pasaran. Desain dirancang khusus untuk meningkatkan gengsi brand Anda.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">⚡</div>
+          <h4>Performa Cepat & Responsif</h4>
+          <p>Diuji di berbagai ukuran layar (smartphone, tablet, laptop) dengan skor performa PageSpeed tinggi.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">🔒</div>
+          <h4>Aman & Bergaransi</h4>
+          <p>Dukungan teknis responsif dan jaminan perbaikan bug jika terjadi kendala pada website Anda.</p>
+        </div>
+        <div class="feature-box">
+          <div class="feature-icon">🎯</div>
+          <h4>Orientasi Hasil & Konversi</h4>
+          <p>Struktur tata letak dibuat psikologis untuk mendorong pengunjung mengambil tindakan (call-to-action).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Consultation Form -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-badge">Mulai Sekarang</span>
+          <h2>Siap Mengembangkan Bisnis Anda ke Level Berikutnya?</h2>
+          <p>
+            Konsultasikan kebutuhan website Anda secara langsung dengan tim kami. Kami siap memberikan saran struktur, fitur, dan estimasi biaya terbaik.
+          </p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="item-icon">📍</span>
+              <div>
+                <strong>Lokasi</strong>
+                <p>Indonesia (Layanan Online Seluruh Indonesia)</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="item-icon">💬</span>
+              <div>
+                <strong>WhatsApp Fast Response</strong>
+                <p>Siap melayani tanya jawab 7 hari seminggu</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="item-icon">⏱️</span>
+              <div>
+                <strong>Waktu Respon</strong>
+                <p>Biasanya kurang dari 30 menit di jam kerja</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-box">
+          <h3>Formulir Konsultasi Cepat</h3>
+          <p class="form-instruction">Isi data di bawah ini untuk terhubung langsung ke WhatsApp kami.</p>
+          
+          <form id="consultationForm">
+            <div class="form-group">
+              <label for="clientName">Nama Lengkap</label>
+              <input type="text" id="clientName" placeholder="Contoh: Budi Santoso" required>
+            </div>
+
+            <div class="form-group">
+              <label for="selectedPackage">Paket Pilihan</label>
+              <select id="selectedPackage">
+                <option value="Belum Tahu (Konsultasi Terlebih Dahulu)">Belum Tahu (Ingin Konsultasi Dulu)</option>
+                <option value="Starter Landing Page">Starter Landing Page (Rp 1.499.000)</option>
+                <option value="Business Profile">Business Profile (Rp 3.499.000)</option>
+                <option value="E-Commerce / Custom">E-Commerce / Custom</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="projectNotes">Keterangan Singkat Kebutuhan</label>
+              <textarea id="projectNotes" rows="3" placeholder="Ceritakan jenis bisnis atau contoh website yang Anda sukai..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block">
+              Kirim ke WhatsApp Noir Agency
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-accent">NOIR</span> AGENCY
+        </a>
+        <p>Solusi pembuatan website berkelas, cepat, dan terpercaya untuk semua industri usaha.</p>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Navigasi</h4>
+        <a href="#services">Layanan</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#pricing">Harga</a>
+        <a href="#why-us">Keunggulan</a>
+      </div>
+
+      <div class="footer-links-group">
+        <h4>Kontak</h4>
+        <a href="#contact">Konsultasi Project</a>
+        <a href="https://github.com/Avrohandri/Noir-Web-Agency" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Noir Web Agency. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
