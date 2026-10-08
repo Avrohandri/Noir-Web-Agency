@@ -22,7 +22,7 @@ Noir-Web-Agency/
 ├── index.html        # Struktur halaman utama website
 ├── style.css         # Styling dark theme & responsivitas
 ├── script.js         # Interaktivitas navbar & integrasi formulir WhatsApp
-└── README.md         # Dokumentasi proyek
+└── README.md         # Dokumentasi projek
 ```
 
 ---
