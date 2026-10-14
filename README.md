@@ -8,7 +8,7 @@ Website resmi dan landing page layanan **Noir Web Agency** — Jasa pembuatan we
 - **Estetika Noir Modern**: Desain bernuansa gelap (*sleek dark mode*) dengan ambient lighting & tipografi futuristik.
 - **Responsif Penuh**: Tampilan optimal di smartphone, tablet, laptop, dan layar monitor desktop.
 - **Section Lengkap**:
-  - Hero Section & Metrik Performa
+  - Hero Sections
   - Daftar Layanan (Company Profile, Landing Page, E-Commerce, Web App)
   - Portofolio / Showcase Preview
   - Paket Harga Transparan
