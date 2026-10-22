@@ -1,6 +1,6 @@
 # 🌑 Noir Web Agency
 
-Website resmi dan landing page layanan **Noir Web Agency** — Jasa pembuatan website profesional, landing page konversi tinggi, toko online, dan aplikasi web kustom dengan desain modern dan performa tinggi.
+Website resmi dan landing page layanan **Noir Web Agency** — Jasa website profesional, landing page konversi tinggi, toko online, dan aplikasi web kustom dengan desain modern dan performa tinggi.
 
 ---
 
